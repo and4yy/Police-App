@@ -1,0 +1,1 @@
+Police Uganda   is the name of the Application, the application is intended to keep law and order in Uganda, it contains many functionalities like searching nearest police stations, national id, passport, driving permit verification, save our soul (SOS) functionality, and so many other features.
