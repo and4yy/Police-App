@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Name:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Mzee:"
+                android:id="@+id/receipt_name"
+                />
+        </TableRow>
+
+
+        <TableRow
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Plate Number:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="bevfeyfyefyevyf"
+            android:id="@+id/receipt_platenumber"
+            android:textColor="#000" />
+    </TableRow>
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Charge Sheet No.:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="bevfeyfyefyevyf"
+                android:id="@+id/receipt_chargesheet"
+                android:textColor="#000" />
+        </TableRow>
+        <TableRow
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Amount Charged :
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:id="@+id/receipt_amountcharged"
+                android:text="2000"
+                />
+        </TableRow>
+
+        <TableRow
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Phone :
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:id="@+id/receipt_phone"
+                android:text="070474646"
+                />
+        </TableRow>
+        <TableRow
+
+            >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Tax:
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:text="2000"
+                android:id="@+id/receipt_tax"
+                />
+        </TableRow>
+        <TableRow
+
+            >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Total Amount:
+" />
+
+            <TextView
+                android:id="@+id/receipt_totalamount"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:text="bevfeyfyefyevyf" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Confirm"
+        android:id="@+id/receipt_bt"
+
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

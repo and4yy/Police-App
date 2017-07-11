@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingBottom="40dp"
+    android:gravity="center"
+
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardElevation="20dp"
+        android:layout_margin="15dp"
+        card_view:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LOGIN"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingBottom="20dp"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_Reg"
+                android:paddingRight="12dp"
+
+                android:gravity="center"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/input_outline"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:hint="Police Card No."
+                android:layout_gravity="center_horizontal"
+                android:padding="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_Pass"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/input_outline"
+                android:paddingBottom="10dp"
+                android:inputType="textPassword"
+                android:gravity="center"
+
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Password..."
+                android:layout_gravity="center_horizontal"
+                android:padding="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:id="@+id/bt_login"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

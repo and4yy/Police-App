@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Track  Your National ID and Pick It"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:id="@+id/track_id_edt"
+            android:background="@drawable/input_outline"
+            android:hint="Enter Receipt  No."
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="Search"
+        android:id="@+id/search_track_bt"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv_track_id"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

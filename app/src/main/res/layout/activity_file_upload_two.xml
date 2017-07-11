@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+
+
+        <!-- Login Button -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Choose a File to Uplaod "
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/file_bt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/btn_login_bg"
+            android:text="Choose a File "
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Link to Login Screen -->
+
+
+
+
+
+</LinearLayout>

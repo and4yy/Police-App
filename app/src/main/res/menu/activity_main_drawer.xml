@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/police_admin"
+            android:icon="@drawable/police_admin"
+            android:title="Police Admin" />
+        <item
+            android:id="@+id/police_directory"
+            android:icon="@drawable/policeman"
+            android:title="Police Directory" />
+        <item
+            android:id="@+id/crimes"
+            android:icon="@drawable/crime"
+            android:title="Crimes Reporting" />
+        <item
+            android:id="@+id/shake"
+            android:icon="@drawable/shake_pic"
+            android:title="Shake for help" />
+        <item
+            android:id="@+id/missing_citizen_menu"
+            android:icon="@drawable/missing_person"
+            android:title="Missing Citizen" />
+        <item
+            android:id="@+id/wantedlist_menu"
+            android:icon="@drawable/wanted"
+            android:title="Wanted List" />
+        <item
+        android:id="@+id/shakeforhelp_menu"
+        android:icon="@drawable/shake_menu_icon"
+        android:title="Shake For Help" />
+        <item
+        android:id="@+id/diaspora_menu"
+        android:icon="@drawable/leaders_icon"
+        android:title="Diaspora" />
+        <item
+            android:id="@+id/localleaders_menu"
+            android:icon="@drawable/leaders_icon"
+            android:title="Local Leaders" />
+
+
+    </group>
+
+    <item android:title="Personal Verification">
+        <menu>
+            <item
+                android:id="@+id/passport_menu"
+                android:icon="@drawable/passport"
+                android:title="Verify Passport" />
+            <item
+                android:id="@+id/permit_menu"
+                android:icon="@drawable/passport"
+                android:title="Verify Permit and National ID" />
+
+
+        </menu>
+    </item>
+    <item android:title="Traffic">
+        <menu>
+            <item
+                android:id="@+id/traffic_offence"
+                android:icon="@drawable/traffic_offence"
+                android:title="Traffic Offences and Penalties" />
+            <item
+                android:id="@+id/report_accident"
+                android:icon="@drawable/accident_icon"
+                android:title="Report Accident" />
+            <item
+                android:id="@+id/car_verification_menu"
+                android:icon="@drawable/car_verify"
+                android:title="Car Verification" />
+            <item
+                android:id="@+id/traffisigns_menu"
+                android:icon="@drawable/traffic_offence"
+                android:title="Traffic Signs" />
+
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/about_menu"
+                android:icon="@drawable/about_menu_icon"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

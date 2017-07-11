@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+    <TextView
+        android:text="Select any Missing Type"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_missing_type"
+  />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:text="Attach an Image"
+                android:layout_width="match_parent"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:textStyle="italic|bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                 />
+
+            <ImageView
+                android:id="@+id/image_select_missing"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:src="@drawable/add_photo" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+            <EditText
+                android:id="@+id/name_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/input_outline"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/age_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Age"
+                android:background="@drawable/input_outline"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:background="@drawable/input_outline"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Address"
+        android:ems="10"
+        android:id="@+id/address_edt" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/input_outline"
+                android:inputType="textPersonName"
+                android:hint="Height"
+                android:ems="10"
+                android:id="@+id/height_edt" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/input_outline"
+                android:inputType="textPersonName"
+                android:hint="Type 0r Model"
+                android:ems="10"
+                android:id="@+id/type_edt" />
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName" android:background="@drawable/input_outline"
+        android:hint="Color"
+        android:ems="10"
+        android:id="@+id/color_edt" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_outline"
+        android:inputType="textPersonName"
+        android:hint="Description"
+        android:ems="10"
+        android:id="@+id/description_edt" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+
+                android:text="Send Information"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:id="@+id/send_missing_info_bt"
+                android:background="@drawable/button_corner_radius"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
